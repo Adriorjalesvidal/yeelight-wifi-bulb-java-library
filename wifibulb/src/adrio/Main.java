@@ -7,7 +7,7 @@ public class Main {
 		try {
 			WifiBulb light = new WifiBulb("192.168.1.130", 55443);
 			light.powerOn();
-			Thread.sleep(400);
+			Thread.sleep(300);
 			light.powerOff();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
